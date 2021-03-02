@@ -1,0 +1,4 @@
+<div *ngIf="holidays$ | async as holidays" class="container">
+  <app-holiday-card *ngFor="let holiday of holidays"
+                    [holiday]="holiday"></app-holiday-card>
+</div>

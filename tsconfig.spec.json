@@ -2,13 +2,18 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "allowJs": true,
     "outDir": "./out-tsc/spec",
     "types": [
-      "jasmine"
+      "jest",
+      "puppeteer",
+      "jest-environment-puppeteer",
+      "expect-puppeteer",
+      "jest-image-snapshot"
     ]
   },
   "files": [
-    "src/test.ts",
+//    "src/test.ts",
     "src/polyfills.ts"
   ],
   "include": [

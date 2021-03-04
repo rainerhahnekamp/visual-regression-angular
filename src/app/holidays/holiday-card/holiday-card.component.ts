@@ -6,10 +6,6 @@ interface Holiday {
   teaser: string;
   description: string;
   imageUrl: string;
-  typeId: number;
-  durationInDays: number;
-  minCount: number;
-  maxCount: number;
 }
 
 @Component({
